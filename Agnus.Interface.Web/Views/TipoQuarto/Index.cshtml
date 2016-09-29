@@ -1,0 +1,209 @@
+﻿@model Agnus.Interface.Web.Models.TipoQuartoViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@functions{
+    public string GetAntiForgeryToken()
+    {
+        string cookieToken, formToken;
+        AntiForgery.GetTokens(null, out cookieToken, out formToken);
+        return cookieToken + ":" + formToken;
+    }
+}
+
+<script src="~/Scripts/module-angular-TipoQuarto/tipoQuarto.js"></script>
+
+<div ng-app="agnusApp">
+    <div ng-controller="tipoQuartoCtrl">
+
+        <div class="row">
+            <div class="alert-message alert-message-info">
+                <h4>
+                    <span class="glyphicon glyphicon-pencil"></span>&nbsp;Cadastro de Tipo de Quarto
+                </h4>
+                <p>
+                    Efetue o cadastro dos tipos de quartos do sistema. Defina os itens em que o quarto irá posssui
+                    para atende ao hóspede.<strong>
+                    </strong>
+                </p>
+            </div>
+
+            <!-- Area de Listagem -->
+            <div class="widget stacked widget-table action-table">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <span class="span-header-form"> Lista de Tipos Cadastrados.</span>
+                    </div>
+                </div>
+                <div class="widget-header">
+
+
+                </div>
+                <div class="widget-content">
+                    <table class="table table-striped table-bordered">
+                        <thead>
+                            <tr>
+                                  <th>Descrição</th>
+                                <th>Pessoas Permitidas</th>
+                                <th>Possui Cama Casal</th>
+                                <th>Possui FrigoBar</th>
+                                <th>Possui HidroMassagem</th>
+                                <th>Possui Internet</th>
+                                <th><span class="glyphicon glyphicon-calendar"></span>&nbsp;Data Cadastro</th>
+                                <th><span class="glyphicon glyphicon-user"></span>&nbsp;Criado Por</th>
+                                <th class="td-actions" style="text-align:center">
+                                    <a href="#" class="btn btn-sm btn-success" data-toggle="modal" data-target="#cadastro-modal"><span class="glyphicon glyphicon-plus">&nbsp;<span style="font-size:12px;font-family:Arial, Helvetica, sans-serif">Novo</span> </span></a>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="tipoQuarto in listaTipoQuarto">
+                                <td class="td-center">{{tipoQuarto.Descricao}}</td>
+                                <td class="td-center">{{tipoQuarto.QuantidadePermitidaPessoas}}</td>
+                                <td class="td-center">{{tipoQuarto.PossuiCamaCasal}}</td>
+                                <td class="td-center">{{tipoQuarto.PossuiFrigoBar}}</td>
+                                <td class="td-center">{{tipoQuarto.PossuiHidroMassagem}}</td>
+                                <td class="td-center">{{tipoQuarto.PossuiInternet}}</td>
+                                <td class="td-center">{{tipoQuarto.DataCadastro}}</td>
+                                <td class="td-center">{{tipoQuarto.LoginCadastro}}</td>
+                                <td class="td-actions td-center">
+                                    <a href="#" class="btn btn-sm btn" style="background-color:#98989A;color:#C2C3C9"><span class="glyphicon glyphicon-pencil" style="background-color:#98989A"></span></a>
+                                    <a href="#" data-id="{{tipoQuarto.Id}}" class="btn btn-sm btn-danger" ng-click="Excluir(tipoQuarto.Id)"><span class="glyphicon glyphicon-trash"></span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- Fim Area de Listagem -->
+
+            <!-- Inicio da Tela de Cadastro -->
+            <div class="modal modal-static fade" data-backdrop="static" data-keyboard="false" id="cadastro-modal" role="dialog" aria-hidden="true">
+                <input id="antiForgeryToken" data-ng-model="TipoQuartoViewModel" type="hidden" data-ng-init="antiForgeryToken='@GetAntiForgeryToken()'" />
+                <div class="modal-dialog">
+                    <div class="modal-body">
+                        <!-- Painel Cadastro -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <span class="span-header-form"> Preencha os campos abaixo.</span>
+                            </div>
+
+                            <div class="panel-body">
+                                <div class="row">
+                                    <label class="col-md-12 control-label" for="textinput">Descrição:</label>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-md-10">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-file blue"></i></span>
+                                            <input type="text" id="descricao" name="descricao" ng-model="atipoQuarto.Descricao" placeholder="Insira aqui a descrição" class="form-control" autofocus="autofocus">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <label class="col-md-12 control-label" for="textinput">Caracteristicas:</label>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="checkbox">
+                                            <label for="chkPossuiCamaCasal">
+                                                <input type="checkbox" name="chkPossuiCamaCasal" id="chkPossuiCamaCasal" ng-model="atipoQuarto.PossuiCamaCasal" value="S">
+                                                Possui Cama de Casal?
+                                            </label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <label for="chkPossuiAR">
+                                                <input type="checkbox" name="chkPossuiAR" id="chkPossuiAR" ng-model="atipoQuarto.PossuiAR" value="S">
+                                                Possui AR ?
+                                            </label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <label for="chkPossuiFrigoBar">
+                                                <input type="checkbox" name="chkPossuiFrigoBar" id="chkPossuiFrigoBar" ng-model="atipoQuarto.PossuiFrigoBar" value="S">
+                                                Possui Frigo Bar?
+                                            </label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <label for="chkPossuiInternet">
+                                                <input type="checkbox" name="chkPossuiInternet" id="chkPossuiInternet" ng-model="atipoQuarto.PossuiInternet" value="S">
+                                                Possui Internet?
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-7">
+                                        <div class="checkbox">
+                                            <label for="chkPossuiHidroMassagem">
+                                                <input type="checkbox" name="chkPossuiHidroMassagem" id="chkPossuiHidroMassagem" ng-model="atipoQuarto.PossuiHidroMassagem" value="S">
+                                                Possui Hidro-Massagem?
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <label class="col-md-12 control-label" for="textinput">Quantidade pessoas permitida para o tipo de quarto:</label>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-md-3">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-th-list blue"></i></span>
+                                            <input id="QuantidadePermitidaPessoas" name="QuantidadePermitidaPessoas" maxlength="2" ng-model="atipoQuarto.QuantidadePermitidaPessoas" class="form-control" type="text" required />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <label class="col-md-12 control-label" for="textinput">Observação:</label>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-md-12">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-comment blue"></i></span>
+                                            <textarea name="Observacao" rows="6" ng-model="atipoQuarto.Observacao" class="form-control vresize" type="text" required></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-12 text-right">
+                                        <a href="#" class="btn btn-info" ng-click="Salvar(atipoQuarto)"><span class="glyphicon glyphicon-floppy-disk"></span>   Salvar   </a>
+                                        <a href="#" class="btn btn-danger" style="float: none;" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-ban-circle"></span> Cancelar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim da Tela de Cadastro -->
+            
+            <!-- Inicio da tela de Mensagem de Exclusão  -->
+            <div class="modal fade" id="confirm-delete" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title" id="myModalLabel">Confirmar Exclusão</h4>
+                        </div>
+
+                        <div class="modal-body">
+                            <p>Você está prestes a excluir um tipo de quarto,e esse procedimento é irreversível.</p>
+                            <p>Você quer prosseguir?</p>
+                            <p class="debug-url"></p>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                            <a class="btn btn-danger btn-ok" ng-click="">Excluir</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim da tela de Mensagem de Exclusão  -->
+        </div>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.SOAPAssyncronousCallAPI\bin\Debug\Agnus.SOAPAssyncronousCallAPI.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.SOAPAssyncronousCallAPI\bin\Debug\Agnus.SOAPAssyncronousCallAPI.pdb
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.SOAPAssyncronousCallAPI\bin\Debug\Apache.NMS.ActiveMQ.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.SOAPAssyncronousCallAPI\bin\Debug\Apache.NMS.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.SOAPAssyncronousCallAPI\bin\Debug\Ionic.Zlib.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.SOAPAssyncronousCallAPI\obj\Debug\Agnus.SOAPAssyncronousCallAPI.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.SOAPAssyncronousCallAPI\obj\Debug\Agnus.SOAPAssyncronousCallAPI.pdb
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.SOAPAssyncronousCallAPI\bin\Debug\Agnus.SOAPAssyncronousCallAPI.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.SOAPAssyncronousCallAPI\bin\Debug\Agnus.SOAPAssyncronousCallAPI.pdb
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.SOAPAssyncronousCallAPI\bin\Debug\Apache.NMS.ActiveMQ.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.SOAPAssyncronousCallAPI\bin\Debug\Apache.NMS.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.SOAPAssyncronousCallAPI\bin\Debug\Ionic.Zlib.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.SOAPAssyncronousCallAPI\obj\Debug\Agnus.SOAPAssyncronousCallAPI.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.SOAPAssyncronousCallAPI\obj\Debug\Agnus.SOAPAssyncronousCallAPI.pdb

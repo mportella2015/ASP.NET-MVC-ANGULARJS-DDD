@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://186.215.230.8:90/ConspirawareServices.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Agnus.Domain.RequestModels" />
+  <xs:import schemaLocation="http://186.215.230.8:90/ConspirawareServices.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/Agnus.Domain.ServiceModels" />
+  <xs:element name="CadastrarProjeto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Agnus.Domain.RequestModels" minOccurs="0" name="request" nillable="true" type="q1:Projeto_Request" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CadastrarProjetoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Agnus.Domain.ServiceModels" minOccurs="0" name="CadastrarProjetoResult" nillable="true" type="q2:RetornoPadrao" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CadastrarFornecedorPessoaFisica">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Agnus.Domain.RequestModels" minOccurs="0" name="request" nillable="true" type="q3:FornecedorPessoaFisica_Request" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CadastrarFornecedorPessoaFisicaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Agnus.Domain.ServiceModels" minOccurs="0" name="CadastrarFornecedorPessoaFisicaResult" nillable="true" type="q4:RetornoPadrao" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CadastrarFornecedorPessoaJuridica">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/Agnus.Domain.RequestModels" minOccurs="0" name="request" nillable="true" type="q5:FornecedorPessoaJuridica_Request" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CadastrarFornecedorPessoaJuridicaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/Agnus.Domain.ServiceModels" minOccurs="0" name="CadastrarFornecedorPessoaJuridicaResult" nillable="true" type="q6:RetornoPadrao" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VerificaEncerramento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="codProjeto" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VerificaEncerramentoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/Agnus.Domain.ServiceModels" minOccurs="0" name="VerificaEncerramentoResult" nillable="true" type="q7:RetornoPadrao" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GerarBoletaPedidoRealizado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/Agnus.Domain.RequestModels" minOccurs="0" name="request" nillable="true" type="q8:Boleta_Request" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GerarBoletaPedidoRealizadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/Agnus.Domain.ServiceModels" minOccurs="0" name="GerarBoletaPedidoRealizadoResult" nillable="true" type="q9:RetornoPadrao" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CadastrarSolicitacaoAdiantamento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/Agnus.Domain.RequestModels" minOccurs="0" name="request" nillable="true" type="q10:SolicitacaoDinheiro_Request" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CadastrarSolicitacaoAdiantamentoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/Agnus.Domain.ServiceModels" minOccurs="0" name="CadastrarSolicitacaoAdiantamentoResult" nillable="true" type="q11:RetornoPadrao" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CadastrarPrestacaoContas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/Agnus.Domain.RequestModels" minOccurs="0" name="request" nillable="true" type="q12:PrestacaoContas_Request" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CadastrarPrestacaoContasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/Agnus.Domain.ServiceModels" minOccurs="0" name="CadastrarPrestacaoContasResult" nillable="true" type="q13:RetornoPadrao" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ImpeditivosCancelamentoSolicitacaoAdiantamento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="cdBoleta" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ImpeditivosCancelamentoSolicitacaoAdiantamentoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/Agnus.Domain.ServiceModels" minOccurs="0" name="ImpeditivosCancelamentoSolicitacaoAdiantamentoResult" nillable="true" type="q14:RetornoPadrao" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CadastrarOrcamento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/Agnus.Domain.RequestModels" minOccurs="0" name="request" nillable="true" type="q15:Orcamento_Request" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CadastrarOrcamentoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/Agnus.Domain.ServiceModels" minOccurs="0" name="CadastrarOrcamentoResult" nillable="true" type="q16:RetornoPadrao" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

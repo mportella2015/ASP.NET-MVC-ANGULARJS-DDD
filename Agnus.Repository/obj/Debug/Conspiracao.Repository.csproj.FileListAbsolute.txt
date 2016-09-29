@@ -1,0 +1,17 @@
+C:\Projeto\CNSP_Projeto_PCP\Release\Solucao\Conspiracao.Repository\bin\Debug\Conspiracao.Repository.dll.config
+C:\Projeto\CNSP_Projeto_PCP\Release\Solucao\Conspiracao.Repository\bin\Debug\Conspiracao.Repository.dll
+C:\Projeto\CNSP_Projeto_PCP\Release\Solucao\Conspiracao.Repository\bin\Debug\Conspiracao.Repository.pdb
+C:\Projeto\CNSP_Projeto_PCP\Release\Solucao\Conspiracao.Repository\bin\Debug\Conspiracao.Domain.dll
+C:\Projeto\CNSP_Projeto_PCP\Release\Solucao\Conspiracao.Repository\bin\Debug\Conspiracao.Framework.dll
+C:\Projeto\CNSP_Projeto_PCP\Release\Solucao\Conspiracao.Repository\bin\Debug\EntityFramework.dll
+C:\Projeto\CNSP_Projeto_PCP\Release\Solucao\Conspiracao.Repository\bin\Debug\System.Linq.Dynamic.dll
+C:\Projeto\CNSP_Projeto_PCP\Release\Solucao\Conspiracao.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\Projeto\CNSP_Projeto_PCP\Release\Solucao\Conspiracao.Repository\bin\Debug\System.Web.Mvc.dll
+C:\Projeto\CNSP_Projeto_PCP\Release\Solucao\Conspiracao.Repository\bin\Debug\log4net.dll
+C:\Projeto\CNSP_Projeto_PCP\Release\Solucao\Conspiracao.Repository\bin\Debug\LinqKit.dll
+C:\Projeto\CNSP_Projeto_PCP\Release\Solucao\Conspiracao.Repository\bin\Debug\Conspiracao.Domain.pdb
+C:\Projeto\CNSP_Projeto_PCP\Release\Solucao\Conspiracao.Repository\bin\Debug\Conspiracao.Framework.pdb
+C:\Projeto\CNSP_Projeto_PCP\Release\Solucao\Conspiracao.Repository\bin\Debug\log4net.xml
+C:\Projeto\CNSP_Projeto_PCP\Release\Solucao\Conspiracao.Repository\obj\Debug\Conspiracao.Repository.csprojResolveAssemblyReference.cache
+C:\Projeto\CNSP_Projeto_PCP\Release\Solucao\Conspiracao.Repository\obj\Debug\Conspiracao.Repository.dll
+C:\Projeto\CNSP_Projeto_PCP\Release\Solucao\Conspiracao.Repository\obj\Debug\Conspiracao.Repository.pdb

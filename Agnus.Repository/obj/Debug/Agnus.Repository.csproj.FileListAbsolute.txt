@@ -1,0 +1,40 @@
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\Agnus.Repository.dll.config
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\Agnus.Repository.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\Agnus.Repository.pdb
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\Agnus.Domain.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\Agnus.Framework.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\EntityFramework.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\System.Linq.Dynamic.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\System.Web.Mvc.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\log4net.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\LinqKit.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\Agnus.Domain.pdb
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\Agnus.Framework.pdb
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\EntityFramework.xml
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\log4net.xml
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\Microsoft.Web.Infrastructure.xml
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Repository\obj\Debug\Agnus.Repository.csprojResolveAssemblyReference.cache
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Repository\obj\Debug\Agnus.Repository.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Repository\obj\Debug\Agnus.Repository.pdb
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\Agnus.Repository.dll.config
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\Agnus.Repository.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\Agnus.Repository.pdb
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\Agnus.Domain.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\Agnus.Framework.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\EntityFramework.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\System.Linq.Dynamic.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\log4net.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\LinqKit.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\Agnus.Domain.pdb
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\Agnus.Framework.pdb
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\EntityFramework.xml
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Repository\bin\Debug\log4net.xml
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Repository\obj\Debug\Agnus.Repository.csprojResolveAssemblyReference.cache
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Repository\obj\Debug\Agnus.Repository.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Repository\obj\Debug\Agnus.Repository.pdb

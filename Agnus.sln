@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agnus.Domain", "Agnus.Domain\Agnus.Domain.csproj", "{E3C4C15B-6E6D-4482-9503-82D3D67F1E6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agnus.Framework", "Agnus.Framework\Agnus.Framework.csproj", "{50B3ECBF-6864-4F92-8EE0-A29036359E3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agnus.Repository", "Agnus.Repository\Agnus.Repository.csproj", "{B3488318-DED1-4839-A7BA-0FC6E28E6719}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agnus.Service", "Agnus.Service\Agnus.Service.csproj", "{52E59A7D-CD94-4940-B698-47084FDD4ACA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agnus.SOAPAssyncronousCallAPI", "Agnus.SOAPAssyncronousCallAPI\Agnus.SOAPAssyncronousCallAPI.csproj", "{1B73C56F-1633-469F-B6FB-64B9172FA640}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agnus.WS", "Agnus.WS\Agnus.WS.csproj", "{AAB38FB7-CF73-49F3-A7F6-C7CF70CDF750}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agnus.Interface.Web", "Agnus.Interface.Web\Agnus.Interface.Web.csproj", "{E389786B-A92E-4684-90D1-BC972E5FED42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3C4C15B-6E6D-4482-9503-82D3D67F1E6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3C4C15B-6E6D-4482-9503-82D3D67F1E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3C4C15B-6E6D-4482-9503-82D3D67F1E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3C4C15B-6E6D-4482-9503-82D3D67F1E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50B3ECBF-6864-4F92-8EE0-A29036359E3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50B3ECBF-6864-4F92-8EE0-A29036359E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50B3ECBF-6864-4F92-8EE0-A29036359E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50B3ECBF-6864-4F92-8EE0-A29036359E3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3488318-DED1-4839-A7BA-0FC6E28E6719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3488318-DED1-4839-A7BA-0FC6E28E6719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3488318-DED1-4839-A7BA-0FC6E28E6719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3488318-DED1-4839-A7BA-0FC6E28E6719}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52E59A7D-CD94-4940-B698-47084FDD4ACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52E59A7D-CD94-4940-B698-47084FDD4ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52E59A7D-CD94-4940-B698-47084FDD4ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52E59A7D-CD94-4940-B698-47084FDD4ACA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B73C56F-1633-469F-B6FB-64B9172FA640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B73C56F-1633-469F-B6FB-64B9172FA640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B73C56F-1633-469F-B6FB-64B9172FA640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B73C56F-1633-469F-B6FB-64B9172FA640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAB38FB7-CF73-49F3-A7F6-C7CF70CDF750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAB38FB7-CF73-49F3-A7F6-C7CF70CDF750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAB38FB7-CF73-49F3-A7F6-C7CF70CDF750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAB38FB7-CF73-49F3-A7F6-C7CF70CDF750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E389786B-A92E-4684-90D1-BC972E5FED42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E389786B-A92E-4684-90D1-BC972E5FED42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E389786B-A92E-4684-90D1-BC972E5FED42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E389786B-A92E-4684-90D1-BC972E5FED42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

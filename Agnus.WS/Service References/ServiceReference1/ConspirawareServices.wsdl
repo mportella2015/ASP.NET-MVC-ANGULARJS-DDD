@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ConspirawareServices" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://186.215.230.8:90/ConspirawareServices.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://186.215.230.8:90/ConspirawareServices.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://186.215.230.8:90/ConspirawareServices.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Agnus.Domain.RequestModels" />
+      <xsd:import schemaLocation="http://186.215.230.8:90/ConspirawareServices.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/Agnus.Domain.ServiceModels" />
+      <xsd:import schemaLocation="http://186.215.230.8:90/ConspirawareServices.svc?xsd=xsd4" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IConspirawareServices_CadastrarProjeto_InputMessage">
+    <wsdl:part name="parameters" element="tns:CadastrarProjeto" />
+  </wsdl:message>
+  <wsdl:message name="IConspirawareServices_CadastrarProjeto_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CadastrarProjetoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConspirawareServices_CadastrarFornecedorPessoaFisica_InputMessage">
+    <wsdl:part name="parameters" element="tns:CadastrarFornecedorPessoaFisica" />
+  </wsdl:message>
+  <wsdl:message name="IConspirawareServices_CadastrarFornecedorPessoaFisica_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CadastrarFornecedorPessoaFisicaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConspirawareServices_CadastrarFornecedorPessoaJuridica_InputMessage">
+    <wsdl:part name="parameters" element="tns:CadastrarFornecedorPessoaJuridica" />
+  </wsdl:message>
+  <wsdl:message name="IConspirawareServices_CadastrarFornecedorPessoaJuridica_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CadastrarFornecedorPessoaJuridicaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConspirawareServices_VerificaEncerramento_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerificaEncerramento" />
+  </wsdl:message>
+  <wsdl:message name="IConspirawareServices_VerificaEncerramento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerificaEncerramentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConspirawareServices_GerarBoletaPedidoRealizado_InputMessage">
+    <wsdl:part name="parameters" element="tns:GerarBoletaPedidoRealizado" />
+  </wsdl:message>
+  <wsdl:message name="IConspirawareServices_GerarBoletaPedidoRealizado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GerarBoletaPedidoRealizadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConspirawareServices_CadastrarSolicitacaoAdiantamento_InputMessage">
+    <wsdl:part name="parameters" element="tns:CadastrarSolicitacaoAdiantamento" />
+  </wsdl:message>
+  <wsdl:message name="IConspirawareServices_CadastrarSolicitacaoAdiantamento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CadastrarSolicitacaoAdiantamentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConspirawareServices_CadastrarPrestacaoContas_InputMessage">
+    <wsdl:part name="parameters" element="tns:CadastrarPrestacaoContas" />
+  </wsdl:message>
+  <wsdl:message name="IConspirawareServices_CadastrarPrestacaoContas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CadastrarPrestacaoContasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConspirawareServices_ImpeditivosCancelamentoSolicitacaoAdiantamento_InputMessage">
+    <wsdl:part name="parameters" element="tns:ImpeditivosCancelamentoSolicitacaoAdiantamento" />
+  </wsdl:message>
+  <wsdl:message name="IConspirawareServices_ImpeditivosCancelamentoSolicitacaoAdiantamento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ImpeditivosCancelamentoSolicitacaoAdiantamentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConspirawareServices_CadastrarOrcamento_InputMessage">
+    <wsdl:part name="parameters" element="tns:CadastrarOrcamento" />
+  </wsdl:message>
+  <wsdl:message name="IConspirawareServices_CadastrarOrcamento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CadastrarOrcamentoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IConspirawareServices">
+    <wsdl:operation name="CadastrarProjeto">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConspirawareServices/CadastrarProjeto" message="tns:IConspirawareServices_CadastrarProjeto_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConspirawareServices/CadastrarProjetoResponse" message="tns:IConspirawareServices_CadastrarProjeto_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CadastrarFornecedorPessoaFisica">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConspirawareServices/CadastrarFornecedorPessoaFisica" message="tns:IConspirawareServices_CadastrarFornecedorPessoaFisica_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConspirawareServices/CadastrarFornecedorPessoaFisicaResponse" message="tns:IConspirawareServices_CadastrarFornecedorPessoaFisica_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CadastrarFornecedorPessoaJuridica">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConspirawareServices/CadastrarFornecedorPessoaJuridica" message="tns:IConspirawareServices_CadastrarFornecedorPessoaJuridica_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConspirawareServices/CadastrarFornecedorPessoaJuridicaResponse" message="tns:IConspirawareServices_CadastrarFornecedorPessoaJuridica_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VerificaEncerramento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConspirawareServices/VerificaEncerramento" message="tns:IConspirawareServices_VerificaEncerramento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConspirawareServices/VerificaEncerramentoResponse" message="tns:IConspirawareServices_VerificaEncerramento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GerarBoletaPedidoRealizado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConspirawareServices/GerarBoletaPedidoRealizado" message="tns:IConspirawareServices_GerarBoletaPedidoRealizado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConspirawareServices/GerarBoletaPedidoRealizadoResponse" message="tns:IConspirawareServices_GerarBoletaPedidoRealizado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CadastrarSolicitacaoAdiantamento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConspirawareServices/CadastrarSolicitacaoAdiantamento" message="tns:IConspirawareServices_CadastrarSolicitacaoAdiantamento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConspirawareServices/CadastrarSolicitacaoAdiantamentoResponse" message="tns:IConspirawareServices_CadastrarSolicitacaoAdiantamento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CadastrarPrestacaoContas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConspirawareServices/CadastrarPrestacaoContas" message="tns:IConspirawareServices_CadastrarPrestacaoContas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConspirawareServices/CadastrarPrestacaoContasResponse" message="tns:IConspirawareServices_CadastrarPrestacaoContas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ImpeditivosCancelamentoSolicitacaoAdiantamento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConspirawareServices/ImpeditivosCancelamentoSolicitacaoAdiantamento" message="tns:IConspirawareServices_ImpeditivosCancelamentoSolicitacaoAdiantamento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConspirawareServices/ImpeditivosCancelamentoSolicitacaoAdiantamentoResponse" message="tns:IConspirawareServices_ImpeditivosCancelamentoSolicitacaoAdiantamento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CadastrarOrcamento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConspirawareServices/CadastrarOrcamento" message="tns:IConspirawareServices_CadastrarOrcamento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConspirawareServices/CadastrarOrcamentoResponse" message="tns:IConspirawareServices_CadastrarOrcamento_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IConspirawareServices" type="tns:IConspirawareServices">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CadastrarProjeto">
+      <soap:operation soapAction="http://tempuri.org/IConspirawareServices/CadastrarProjeto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CadastrarFornecedorPessoaFisica">
+      <soap:operation soapAction="http://tempuri.org/IConspirawareServices/CadastrarFornecedorPessoaFisica" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CadastrarFornecedorPessoaJuridica">
+      <soap:operation soapAction="http://tempuri.org/IConspirawareServices/CadastrarFornecedorPessoaJuridica" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerificaEncerramento">
+      <soap:operation soapAction="http://tempuri.org/IConspirawareServices/VerificaEncerramento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GerarBoletaPedidoRealizado">
+      <soap:operation soapAction="http://tempuri.org/IConspirawareServices/GerarBoletaPedidoRealizado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CadastrarSolicitacaoAdiantamento">
+      <soap:operation soapAction="http://tempuri.org/IConspirawareServices/CadastrarSolicitacaoAdiantamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CadastrarPrestacaoContas">
+      <soap:operation soapAction="http://tempuri.org/IConspirawareServices/CadastrarPrestacaoContas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImpeditivosCancelamentoSolicitacaoAdiantamento">
+      <soap:operation soapAction="http://tempuri.org/IConspirawareServices/ImpeditivosCancelamentoSolicitacaoAdiantamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CadastrarOrcamento">
+      <soap:operation soapAction="http://tempuri.org/IConspirawareServices/CadastrarOrcamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ConspirawareServices">
+    <wsdl:port name="BasicHttpBinding_IConspirawareServices" binding="tns:BasicHttpBinding_IConspirawareServices">
+      <soap:address location="http://186.215.230.8:90/ConspirawareServices.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

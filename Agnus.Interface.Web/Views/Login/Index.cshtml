@@ -1,0 +1,111 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <script src="~/Scripts/jquery-3.1.1.min.js"></script>
+    <script src="~/Scripts/angular.js"></script>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="~/Content/Layout.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    
+</head>
+<body >
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <div id="login-overlay" class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel"><span class="glyphicon glyphicon-user"></span>&nbsp; Área Administrativa</h4>
+            </div>
+            <div class="row">
+                <div class="col-xs-6">
+                    <div class="modal-header" align="center">
+                        <img class="img-circle" id="img_logo" width="120" height="120" src="~/Content/Images/hotel_passo_fundo_hotel_2_g.jpg">
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                    <h1>Hotel Agnus </h1>
+                    <span style="font-size:9px">
+                        Hotel Place Agnus
+                        Estrada Municipal dos Artistas, 2380
+                        Vivendo, Algum Lugar, 12086-000, Brasil
+                        reservas@agnus.com.br
+                        (XX) 0000-0000
+                    </span>
+                </div>
+            </div>
+            <div class="modal-body">
+
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="well" style="background: linear-gradient(to right,  #fcfff4 0%,#dfe5d7 100%,#b3bead 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */">
+                            <form id="loginForm" method="POST" action="/login/" novalidate="novalidate">
+                                <div class="form-group">
+                                    <label for="username" class="control-label">Usuário</label>
+                                    <input type="text" class="form-control" id="username" name="username" value="" required="" title="Entre com seu usuário" placeholder="example@gmail.com">
+                                    <span class="help-block"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="password" class="control-label">Senha</label>
+                                    <input type="password" class="form-control" id="password" name="password" value="" required="" title="Entre com a senha">
+                                    <span class="help-block"></span>
+                                </div>
+                                <div id="loginErrorMsg" class="alert alert-error hide">Erro</div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" name="remember" id="remember"> Guardar Senha
+                                    </label>
+                                    <p class="help-block">(É seu computador particular?)</p>
+                                </div>
+                                <a href="~/Dashboard/" class="btn btn-success btn-block">Acessar</a>
+                                <a href="#" class="btn btn-default btn-block">Ajuda para se logar</a>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-xs-6">
+                        <p class="lead">Registre-se!<span class="text-success">&nbsp;Não há Taxas.</span></p>
+                        <ul class="list-unstyled" style="line-height: 2">
+                            <li><span class="fa fa-check text-success"></span> Veja os hoteis em toda sua rede</li>
+                            <li><span class="fa fa-check text-success"></span> Pesquisa de Quartos</li>
+                            <li><span class="fa fa-check text-success"></span> Planejamento de Estadias</li>
+                            <li><span class="fa fa-check text-success"></span> Lancamento de Promoções</li>
+                            <li><span class="fa fa-check text-success"></span> Oferta para hóspedes<small>&nbsp;(apenas os novos clientes)</small></li>
+                        </ul>
+                        <br/><br/>
+                        <p><a href="#" class="btn btn-info btn-block" data-toggle="modal" data-target=".bs-example-modal-lg">Eu quero me cadastrar agora!</a></p>
+                    </div>
+                </div>
+            </div>
+           
+            <!--
+            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#processing-modal">
+                <i class="glyphicon glyphicon-play"></i> Iniciar
+            </button> 
+             -->
+          
+        </div>
+
+        <!-- Static Modal -->
+        <div class="modal modal-static fade" id="processing-modal" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="text-center">
+                            <img src="~/Content/Images/loading.gif" class="icon" />
+                            <h4>Processando... <button type="button" class="close" style="float: none;" data-dismiss="modal" aria-hidden="true">×</button></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Reporting\obj\Debug\Agnus.Reporting.csprojResolveAssemblyReference.cache
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\Agnus.Reporting.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\Agnus.Reporting.pdb
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\Agnus.Domain.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\Agnus.Framework.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\Agnus.Repository.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\Agnus.Service.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\EPPlus.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\EntityFramework.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\Newtonsoft.Json.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\System.Web.Mvc.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\log4net.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\LinqKit.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\System.Linq.Dynamic.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\Ninject.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\Correios.Net.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\Agnus.Domain.pdb
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\Agnus.Framework.pdb
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\Agnus.Repository.pdb
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\Agnus.Service.pdb
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\EPPlus.xml
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\EntityFramework.xml
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\log4net.xml
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\Ninject.xml
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\Correios.Net.pdb
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\Microsoft.Web.Infrastructure.xml
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Reporting\obj\Debug\Agnus.Reporting.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Reporting\obj\Debug\Agnus.Reporting.pdb
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\Agnus.Reporting.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\Agnus.Reporting.pdb
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\Agnus.Domain.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\Agnus.Framework.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\Agnus.Repository.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\Agnus.Service.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\EPPlus.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\EntityFramework.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\System.Web.Mvc.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\log4net.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\LinqKit.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\System.Linq.Dynamic.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\Ninject.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\Agnus.Domain.pdb
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\Agnus.Framework.pdb
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\Agnus.Repository.pdb
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\Agnus.Service.pdb
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\EPPlus.xml
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\EntityFramework.xml
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\log4net.xml
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\Ninject.xml
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\obj\Debug\Agnus.Reporting.csprojResolveAssemblyReference.cache
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\obj\Debug\Agnus.Reporting.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\obj\Debug\Agnus.Reporting.pdb
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\System.Web.Razor.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\System.Web.WebPages.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\System.Web.Mvc.xml
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\System.Web.Razor.xml
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\System.Web.WebPages.xml
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Reporting\bin\Debug\System.Web.WebPages.Deployment.xml

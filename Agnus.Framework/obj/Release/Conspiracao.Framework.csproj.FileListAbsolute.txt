@@ -1,0 +1,9 @@
+C:\Projeto\CNSP_Projeto_PCP\Release\Solucao\Conspiracao.Framework\bin\Release\Conspiracao.Framework.dll.config
+C:\Projeto\CNSP_Projeto_PCP\Release\Solucao\Conspiracao.Framework\bin\Release\Conspiracao.Framework.dll
+C:\Projeto\CNSP_Projeto_PCP\Release\Solucao\Conspiracao.Framework\bin\Release\Conspiracao.Framework.pdb
+C:\Projeto\CNSP_Projeto_PCP\Release\Solucao\Conspiracao.Framework\bin\Release\EntityFramework.dll
+C:\Projeto\CNSP_Projeto_PCP\Release\Solucao\Conspiracao.Framework\bin\Release\LinqKit.dll
+C:\Projeto\CNSP_Projeto_PCP\Release\Solucao\Conspiracao.Framework\bin\Release\log4net.dll
+C:\Projeto\CNSP_Projeto_PCP\Release\Solucao\Conspiracao.Framework\bin\Release\log4net.xml
+C:\Projeto\CNSP_Projeto_PCP\Release\Solucao\Conspiracao.Framework\obj\Release\Conspiracao.Framework.dll
+C:\Projeto\CNSP_Projeto_PCP\Release\Solucao\Conspiracao.Framework\obj\Release\Conspiracao.Framework.pdb

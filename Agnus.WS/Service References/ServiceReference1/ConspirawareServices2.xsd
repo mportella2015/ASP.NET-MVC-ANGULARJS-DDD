@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Agnus.Domain.ServiceModels" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Agnus.Domain.ServiceModels" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://186.215.230.8:90/ConspirawareServices.svc?xsd=xsd4" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="RetornoPadrao">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DOCSAP1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DOCSAP2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DOCSAP3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DOCSAP4" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DOCSAP5" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IDREF" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="INTERFACE" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="MESSAGE_LIST" nillable="true" type="q1:ArrayOfstring" />
+      <xs:element minOccurs="0" name="RETORNOID" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="RETORNOSUCESSO" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="TYPE" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RetornoPadrao" nillable="true" type="tns:RetornoPadrao" />
+</xs:schema>

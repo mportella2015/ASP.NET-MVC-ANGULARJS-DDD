@@ -1,0 +1,83 @@
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Agnus.Service.dll.config
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Agnus.Service.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Agnus.Service.pdb
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Agnus.Domain.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Agnus.Framework.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Agnus.Repository.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Correios.Net.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\EntityFramework.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Itenso.TimePeriod.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Ninject.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Ninject.Web.Common.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\System.Web.Helpers.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\System.Web.Mvc.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\System.Web.Razor.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\System.Web.WebPages.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Newtonsoft.Json.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\log4net.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\LinqKit.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\System.Linq.Dynamic.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Agnus.Domain.pdb
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Agnus.Framework.pdb
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Agnus.Repository.pdb
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Correios.Net.pdb
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\EntityFramework.xml
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Ninject.xml
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Ninject.Web.Common.xml
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\System.Web.Helpers.xml
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\System.Web.Mvc.xml
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\System.Web.Razor.xml
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\System.Web.WebPages.xml
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\log4net.xml
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\bin\Debug\de\Itenso.TimePeriod.resources.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\obj\Debug\Agnus.Service.csprojResolveAssemblyReference.cache
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\obj\Debug\Agnus.Service.dll
+C:\Projetos\Engenharia de Software\Estrutura - Framework - DDD\Agnus.Service\obj\Debug\Agnus.Service.pdb
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Agnus.Service.dll.config
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Agnus.Service.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Agnus.Service.pdb
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Agnus.Domain.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Agnus.Framework.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Agnus.Repository.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Correios.Net.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\EntityFramework.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Itenso.TimePeriod.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Ninject.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Ninject.Web.Common.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\System.Web.Helpers.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\System.Web.Mvc.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\System.Web.Razor.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\System.Web.WebPages.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\log4net.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\LinqKit.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\System.Linq.Dynamic.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Agnus.Domain.pdb
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Agnus.Framework.pdb
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Agnus.Repository.pdb
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Correios.Net.pdb
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\EntityFramework.xml
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Ninject.xml
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\Ninject.Web.Common.xml
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\System.Web.Helpers.xml
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\System.Web.Mvc.xml
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\System.Web.Razor.xml
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\System.Web.WebPages.xml
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\log4net.xml
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\bin\Debug\de\Itenso.TimePeriod.resources.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\obj\Debug\Agnus.Service.csprojResolveAssemblyReference.cache
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\obj\Debug\Agnus.Service.dll
+C:\Projetos\Engenharia de Software\Releases\3- Estrutura - Framework - DDD\Agnus.Service\obj\Debug\Agnus.Service.pdb
